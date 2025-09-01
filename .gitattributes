@@ -1,3 +1,5 @@
 # Set default behavior to automatically normalize line endings.
 #* text=auto
 
+# Exclude AutoIt files from language statistics
+server/src/autoit/native.au3 linguist-vendored
